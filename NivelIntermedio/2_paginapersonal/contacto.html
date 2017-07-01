@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Indie+Flower|Patrick+Hand+SC" rel="stylesheet"> 
+	<title>Mi página Personal</title>
+</head>
+<body>
+
+<!-- Incia Barra de navegación-->
+<nav class="navbar navbar-default fondo quitarEspacio"> <!--navbar-inverse-->
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"><img src="img/logo_geofisica4.png" alt="Logo IGEOF"></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Inicio <span class="sr-only">(current)</span></a></li>
+        <li><a href="rasgos.html">Rasgos</a></li>
+        <li class="active"><a href="contacto.html">Contacto</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Redes Sociales <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="https://facebook.com">Facebook</a></li>
+            <li><a href="https://twitter.com">Twitter</a></li>
+            <li><a href="https://instagram.com">Instagram</a></li>
+            <li><a href="https://youtube.com">Youtube</a></li>
+           </ul>
+        </li>
+      </ul>
+
+      <!--Se quitaron estos elementos para poder modificar los anteriores-->
+
+     <!-- <form class="navbar-form navbar-left">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Buscar">
+        </div>
+        <button type="submit" class="btn btn-default">Enviar</button>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Opcion5</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Opcion6 <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<!-- Finaliza barra de navegación-->
+
+<!--COntenido de página de contacto-->
+<div class="container">
+  <div class="row quitarEspacio3">
+    <div class="col-md-6 col-xs-8">
+      <iframe class="img-responsive" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3764.768894199108!2d-99.179224!3d19.3358322!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce001d7aaa62a5%3A0x117007415cdbcc44!2sCopilco!5e0!3m2!1ses-419!2smx!4v1497975386941" width="800" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+    <div class="col-md-6 col-xs-4">
+        <h2>Contacto</h2>
+        <p>Dirección: Av. Universidad 3000 <br> Col. UNAM, C.U. <br> Delg. Coyoácan <br> C.P. 04510</p>
+        <p class="glyphicon glyphicon-phone"> 56221450 Ext. 4</p><br>
+        <p class="glyphicon glyphicon-envelope"> <a href="mailto: danielp@igeofisica.unam.mx"> danielp@igeofisica.unam.mx</a> </p>
+        <!--<p><abbr title="telefono">tel: </abbr> 56221450 Ext. 4</p>
+        <p><abbr title="Email">mail: </abbr><a href="mailto: danielp@igeofisica.unam.mx"> danielp@igeofisica.unam.mx</a></p>-->
+    </div>
+  </div>
+</div>
+
+<h2>Entrar al sistema</h2>
+      <form class="form-inline">
+        <div class="control group form-group">
+        <div class="controls"></div>
+          <label>Mensaje</label>
+          <textarea cols="30" rows="10" class="form-control" id="message" required data-validation-required-message="Por favor ingresa un mensaje" maxlength="999" style="resize: none;">Ingresa tu comentario</textarea>
+        </div>
+        <div class="form-group">
+           <label for="exampleInputEmail1">Correo</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Correo">
+        </div>
+        <div class="form-group">
+          <label class="sr-only" for="exampleInputPassword3">Contraseña</label>
+          <input type="password" class="form-control" id="exampleInputPassword3" placeholder="Contraseña">
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox"> Recordar
+          </label>
+        </div>
+        <button type="submit" class="btn btn-default">Enviar</button>
+      </form>
+
+<!--Finalizar contenido-->
+
+<!-- Inicia el footer-->
+<footer>
+  <div class="row">
+    <div class="col-lg-12"></div> 
+      <center> 
+        <p>Copyright &copy; 2017</p>
+      </center>
+
+  </div>
+</footer> 
+<!--Finaliza el footer-->
+
+</body>
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.js"></script>
+</html>

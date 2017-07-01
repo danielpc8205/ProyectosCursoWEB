@@ -1,0 +1,43 @@
+div{
+	background: green;
+	width: 400px; /*ancho*/
+	padding: 30px; /*margen interior*/
+	border: 10px solid #000000; /*borde*/
+	/*margin: 20px 50px; /*margen exterior con 20px arriba y abajo y 50 px derecha e izquierda*/
+	/*position: static; /*posicionamiento por defecto*/
+	
+	position: absolute; /*posicionamiento con respecto al inicio de la pantalla*/
+	top: 50px; 
+	right: 300px;
+
+	/*position: fixed; /*Posicionamiento fijo*/
+	/*top: 50px; 
+	right: 400px;
+*/
+}
+
+.divPadre{
+background: blue;
+	width: 200px; /*ancho*/
+	padding: 0px; /*margen interior*/
+	border: 5px solid #000000;
+
+	background: yellow;
+	position: absolute;
+	top: 0px;
+	right: 800px;
+	/*Esta caja se mueve con respecto al origen 0,0 de la esquina superior izquierda*/
+}
+
+.divHijo{
+background: blue;
+	width: 300px; /*ancho*/
+	padding: 0px; /*margen interior*/
+	border: 5px solid #000000;
+
+	background: yellow;
+	position: relative;
+	top: 100px;
+	right: 5px;
+	/*Esta caja se mueve con respecto al divPadre, tomando como origen la esquina superior izquierda*/
+}

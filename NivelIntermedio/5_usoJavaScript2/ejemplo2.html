@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Uso de Java Script</title>
+</head>
+<body>
+	<!--<button id="cambiaTexto">Cambia el primer div</button>
+		<div id="primerdiv">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis culpa, ducimus molestiae velit veritatis beatae necessitatibus! Eius nihil quidem odio enim eum, eaque quis amet repellendus officiis magni impedit nesciunt.</div>
+	<button id="concatenar">Concateno texto al segundo div</button>
+		<div id="segundodiv">El titular del curso es:</div>
+
+	<button id="creador">Crea Texto HTML</button>
+		<div id="tercerdiv"></div>-->
+
+	<button id="sumar">sumar</button>
+		<div id="cuartodiv"></div>
+</body>
+<script>
+	//Las funciones siguientes necesitan un trigger para aplicarse
+	document.getElementById("cambiaTexto").onclick=function(){
+		//function() se le conoce como funciones anónimas.
+		console.log("Imprimir en consola");
+		alert(document.getElementById("primerdiv").innerHTML);
+	}
+	//concatenar métodos
+	document.getElementById("concatenar").onclick=function(){
+		document.getElementById("segundodiv").innerHTML=document.getElementById("segundodiv").innerHTML + "Luis Lara";
+	}
+	document.getElementById("creador").onclick=function(){
+		document.getElementById("tercerdiv").innerHTML="<h3>Hola, Javascript me creo</h3>"
+	}
+
+
+
+	//Esta función es necesario mandarla a llamar
+	function suma(a,b){
+		return a+b;
+	} //la funcion solo así como function no se aplica sino hasta que se mande a llamar
+	//console.log(suma(10,8));
+
+	function sumarEnDiv(a,b){
+		document.getElementById("cuartodiv").innerHTML = a + b;
+	}
+	document.getElementById("sumar").onclick = sumarEnDiv(10,9);
+
+</script>
+</html>

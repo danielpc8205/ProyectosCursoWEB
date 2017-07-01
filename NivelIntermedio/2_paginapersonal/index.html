@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Indie+Flower|Patrick+Hand+SC" rel="stylesheet"> 
+	<title>Mi página Personal</title>
+</head>
+<body>
+
+<!-- Incia Barra de navegación-->
+<nav class="navbar navbar-default fondo quitarEspacio"> <!--navbar-inverse-->
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"><img src="img/logo_geofisica4.png" alt="Logo IGEOF"></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Inicio <span class="sr-only">(current)</span></a></li>
+        <li><a href="rasgos.html">Rasgos</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Redes Sociales <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="https://facebook.com" target="_blank">Facebook</a></li>
+            <li><a href="https://twitter.com" target="_blank">Twitter</a></li>
+            <li><a href="https://instagram.com" target="_blank">Instagram</a></li>
+            <li><a href="https://youtube.com" target="_blank">Youtube</a></li>
+           </ul>
+        </li>
+      </ul>
+
+      <!--Se quitaron estos elementos para poder modificar los anteriores-->
+
+     <!-- <form class="navbar-form navbar-left">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Buscar">
+        </div>
+        <button type="submit" class="btn btn-default">Enviar</button>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Opcion5</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Opcion6 <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><! /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<!-- Finaliza barra de navegación-->
+
+<!-- Inicia Carrusel-->
+<header id="miCarrusel" class="carousel slide">
+<!--<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">-->
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#miCarrusel" data-slide-to="0" class="active"></li>
+    <li data-target="#miCarrusel" data-slide-to="1"></li>
+    <li data-target="#miCarrusel" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="img/Imagen1.jpg" alt="Geologia 1">
+      <div class="carousel-caption">
+        <h2>Descripción</h2>
+      </div>
+    </div>
+    <div class="item">
+      <img src="img/Imagen2.jpg" alt="Geologia 2">
+      <div class="carousel-caption">
+        <h2>Descripción</h2>
+      </div>
+    </div>
+    <div class="item">
+      <img src="img/Imagen3.jpg" alt="Geologia 3">
+      <div class="carousel-caption">
+        <h2>Descripción</h2>
+      </div>
+    </div>
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#miCarrusel" data-slide="prev">
+    <span class="icon-prev"></span>
+  </a>
+  <a class="right carousel-control" href="#miCarrusel" data-slide="next">
+    <span class="icon-next"></span>
+  </a>
+<!--</div>-->
+</header>
+<!--Finaliza carrusel-->
+
+<!--Inicia Panel-->
+<div class="container">
+<h2>Estructuras</h2>
+  <div class="row quitarEspacio2">
+    <div class="col-xs-8 col-md-6">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">Info</h3>
+        </div>
+        <div class="panel-body">
+           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem corrupti minima ab ex sunt possimus necessitatibus voluptates nesciunt, repellat perspiciatis deserunt odio obcaecati adipisci fugiat minus recusandae, odit, officiis quis?
+        </div>
+      </div>
+    </div>
+      <div class="col-xs-4 col-md-6">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">Info</h3>
+        </div>
+        <div class="panel-body">
+           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae porro, accusamus temporibus incidunt illo ad dolores facere. Dolorum ad, accusantium quia a quae minima reiciendis sint eum eveniet, cupiditate ullam.
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--Finaliza Panel-->
+
+<!--Inicia barra de opcion-->
+<div class="list-group">
+  <a href="http://www.geologia.unam.mx/" target="_blank" class="list-group-item active">
+    <h4 class="list-group-item-heading">Instituto de Geología</h4>
+    <p class="list-group-item-text">Si requiere mayor información dirigirse a esta liga</p>
+  </a>
+</div>
+<!--Finaliza-->
+
+<!-- Inicia el footer-->
+<footer>
+  <div class="row">
+    <div class="col-lg-12"></div> 
+      <center> 
+        <p>Copyright &copy; 2017</p>
+      </center>
+
+  </div>
+</footer> 
+<!--Finaliza el footer-->
+
+</body>
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.js"></script>
+</html>

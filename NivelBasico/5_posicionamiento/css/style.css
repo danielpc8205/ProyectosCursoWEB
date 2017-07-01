@@ -1,0 +1,77 @@
+div{
+	width: 100px;
+	height: 100px;
+	background: #4A88F4;
+	float: left;
+	font-size: 30px;
+}
+
+.caja1{
+	/*position: static; /*no pasa nada pues ya esta por defaul*/
+	/*position: absolute; */
+	/*position: relative; */
+
+	position: relative; /*En este momento, esta caja 
+	funge como caja hija.*/
+	top: 0px;
+	left: 000px;
+
+	/*para hacer que una pagina sea responsiva, debemos 
+	hacer que las cosas tengan la capacidad de verse
+	igual en cualquier dispositivo: laptop, tablets,
+	celulares, etc; para ello hacemos lo siguiente.*/
+
+}
+.caja2{
+	position: relative;
+	top: -100px;
+	left: 100px;
+}
+.caja3{
+	position: relative;
+	top: -200px;
+	left: 200px;
+}
+.caja4{
+	position: relative;
+	top: -200px;
+	left: 200px;
+}
+.caja5{
+	position: relative;
+	top: -200px;
+	left: 200px;
+}
+.caja6{
+	position: relative;
+	top: -300px;
+	left: 100px;
+}
+.caja7{
+	position: relative;
+	top: -500px;
+	left: 00px;
+}
+.caja8{
+	position: relative;
+	top: -500px;
+	left: 00px;
+}
+.caja9{
+	position: relative;
+	top: -500px;
+	left: 00px;
+}
+.caja10{
+	position: relative;
+	top: -500px;
+	left: 00px;
+}
+.cajaPadre{
+	/*height: 200px;*/
+	background: #000;
+	position: absolute;
+
+	top: 50px;
+	left: 100px;
+}

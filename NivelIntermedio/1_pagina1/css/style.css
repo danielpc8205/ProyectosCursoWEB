@@ -1,0 +1,15 @@
+.col-md-1, .col-md-4, .col-md-6, .col-xs-12, .col-md-8, .col-xs-6, .col-md-3, .col-md-9, .col-md-12, .col-xs-8, .col-xs-4{
+	padding-left: 10px;
+	padding-bottom: 10px;
+	background: rgba(147,62,62,.5);
+	border: 1px solid rgba(147,62,62,.7);
+}
+
+.col-md-12{
+	padding-left: 10px;
+	padding-bottom: 10px;
+	background: rgba(5,62,62,.5);
+	border: 1px solid rgba(147,62,62,.7);
+}
+
+

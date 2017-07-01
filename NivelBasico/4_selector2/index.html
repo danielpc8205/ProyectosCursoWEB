@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Selectores avanzados 2</title>
+	<style>
+		/*etiqueta [atributo]{}*/
+		a[target=_blank]{
+			background: gray;
+		}
+		p[lang|=en]{
+			background-color: yellow;
+		}
+	</style>
+</head>
+<body>
+	<p>Cualquier etiqueta que tenga el atributo target será de color gris</p>
+	<a href="http://www.geofisica.unam.mx"> IGEOF </a>
+	<a href="http://www.google.com.mx" target="_blank"> GOOGLE! </a>
+	<a href="http://www.w3cschool.com" target="_top"> W3C </a>
+	<a href="http://www.wikipedia.org" > WIKI </a>
+
+	<p lang="en"> Hello! </p>
+	<p lang="us"> Hi </p>
+	<p lang="en-gb"> Ello </p>
+	<p lang="en-us"> Hi! </p>	
+	<p lang="no"> Hey! </p>
+
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Selectores avanzados</title>
+	<style>
+		/*
+		elemento: nth-child(numero de hijo que se quiere afectar){
+		};
+		*/
+	span:nth-child(5){
+		background-color: red;
+	}	
+
+	span:nth-child(2n){
+		background-color: yellow;
+	}
+
+		/* 
+		elemnto que permite heredar una propiedad al primer hijo
+		*/
+	div > h2{
+		background-color: red;
+	}
+	img{
+		width: 10%;
+		height: 20%;
+	}
+
+		/*
+		elemento1 + elemento2{}
+		*/
+	div + p{
+		background-color: green;
+	}
+	</style>
+</head>
+<body>
+	<span> Primer span </span>
+	<span> Segundo span </span>
+	<span> Tercer span </span>
+	<span> Cuarto span </span>
+	<span> Quinto span </span>
+	<span> Sexto span </span>
+	<span> Séptimo span </span>
+	<span> Octavo span </span>
+	<span> Noveno Span </span>
+
+	<div>
+		<h2>
+			Soy un tanque
+		</h2>
+
+		<img src="img/tanque.jpg">
+		<p> Verde </p>
+		<p> Pesado </p>
+		<p> Velocidad de 40 [km/h] </p>
+	</div>
+
+	<div>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam qui ullam minus! Itaque voluptates rem nam quo amet nemo, molestias facilis voluptatibus non explicabo maxime, debitis dicta quisquam. Molestiae, porro.</p>	
+	</div>
+
+	<div>
+		<a><p>No tengo estilo...</p></a>
+	</div>
+
+	<div>
+		<h4>Soy un h4 dentro de un div</h4>
+		<p>Soy un párrafo p</p>
+	</div>
+
+</body>
+</html>
